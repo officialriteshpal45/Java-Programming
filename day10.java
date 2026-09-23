@@ -34,7 +34,7 @@ public class day10 {
         }
     }
     else{
-        System.out.println("You are not eligible to vote");
-    }
+        System.out.println("You are  eligible to vote");
+   }
 }
 }
