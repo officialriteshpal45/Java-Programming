@@ -4,10 +4,10 @@ public class day12 {
     // Stu_data is a simple method that contain a data
     // User Define Method ---
     public void stu_data(){
-        System.out.println("Ritesh Pal");
-        System.out.println("21");
-        System.out.println("TYST Solution");
-        System.out.println("ssn_no :- 56883254");
+        System.out.println(" Ritesh Pal ");
+        System.out.println(" 21 ");
+        System.out.println(" TYST Solution ");
+        System.out.println(" ssn_no :- 56883254 ");
     }
     public static void main(String[] args) {
         // Method in java programming 

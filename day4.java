@@ -1,18 +1,22 @@
-// Take input from the user 
-import java.util.*;
-      public class day4{
-        public static void main(String [] args){
-          Scanner sc = new Scanner(System.in);
-          System.out.println("Enter your name : - ");
-          String name = sc.nextLine();
-          System.out.println("Your name is : - "+name);
-          System.out.println("Enter your age :- ");
-          int age = sc.nextInt();
-          System.out.println("Your age is :- "+age);
-          /*
-          Output on this code :
-          Your name is : - Ritesh Pal
-          Your age is :- 21
-          */
-        }
-      }
+import java.util.Scanner;
+
+public class day4 {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+ 
+        System.out.println("Enter Name, RollNo, Marks, Grade");
+        
+        String name = sc.nextLine();        //used to read line
+        int RollNo = sc.nextInt();          //used to read int
+        double Marks = sc.nextDouble();     //used to read double
+        char Grade = sc.next().charAt(0);   //used to read till space
+ 
+        System.out.println("Name: "+name);
+        System.out.println("Gender: "+RollNo);
+        System.out.println("Marks: "+Marks);
+        System.out.println("Grade: "+Grade);
+        
+        sc.close();
+    }
+}
