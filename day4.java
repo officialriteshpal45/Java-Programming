@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // These are the Java package 
 
 public class day4 {
     public static void main(String[] args) {
