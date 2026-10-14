@@ -10,7 +10,7 @@ public class day16 {
         System.out.print(arr[0]);
 
         // Update Array Elements 
-
+ 
         // Updating first element
         arr[0] = 90;
         System.out.println(arr[0]);
