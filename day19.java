@@ -18,5 +18,22 @@ public class day19 {
 
         // Concatinate Method
         System.out.println(fname.concat(lname));
+          
+        // Split 
+        String text = "Java is a fun programming language";
+
+        // split string from space
+    String[] result = text.split(" ");
+
+
+      System.out.print("result = ");
+      for (String str : result) {
+      System.out.print(str + ", ");
+
+      //find the string length
+       String str1 = "gthsghghs";
+       int length = str1.length();
+       System.out.println(length);
+    }
     }
 }
