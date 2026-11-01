@@ -1,5 +1,13 @@
 public class oop23 {
     // OOP’s stands for Object Oriented Programming
+    /*
+    Object & Class
+    Inheritance
+    Polymorphism
+    Abstraction
+    Encapsulation
+    */
+   //see how we can create a class and from it, create an object
     String name = "Rajesh";
     int age = 20;
     
