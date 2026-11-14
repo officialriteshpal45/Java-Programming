@@ -12,7 +12,7 @@ public class oop23 {
     int age = 20;
     
     public static void main(String[] args) {
-       oop23 Ob = new oop23();
+       oop23 Ob = new oop23();// Use the object call the data
         System.out.println("Name: " + Ob.name);
         System.out.println("Age: " + Ob.age);
     }
